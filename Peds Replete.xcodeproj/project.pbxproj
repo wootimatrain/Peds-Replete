@@ -1,0 +1,485 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F88004E718FCBE4900408825 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F88004E618FCBE4900408825 /* Foundation.framework */; };
+		F88004E918FCBE4900408825 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F88004E818FCBE4900408825 /* CoreGraphics.framework */; };
+		F88004EB18FCBE4900408825 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F88004EA18FCBE4900408825 /* UIKit.framework */; };
+		F88004F118FCBE4900408825 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F88004EF18FCBE4900408825 /* InfoPlist.strings */; };
+		F88004F318FCBE4900408825 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F88004F218FCBE4900408825 /* main.m */; };
+		F88004F718FCBE4900408825 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F88004F618FCBE4900408825 /* AppDelegate.m */; };
+		F88004FA18FCBE4900408825 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F88004F818FCBE4900408825 /* Main_iPhone.storyboard */; };
+		F88004FD18FCBE4900408825 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F88004FB18FCBE4900408825 /* Main_iPad.storyboard */; };
+		F880050018FCBE4900408825 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F88004FF18FCBE4900408825 /* ViewController.m */; };
+		F880050218FCBE4900408825 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F880050118FCBE4900408825 /* Images.xcassets */; };
+		F880050918FCBE4900408825 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F880050818FCBE4900408825 /* XCTest.framework */; };
+		F880050A18FCBE4900408825 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F88004E618FCBE4900408825 /* Foundation.framework */; };
+		F880050B18FCBE4900408825 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F88004EA18FCBE4900408825 /* UIKit.framework */; };
+		F880051318FCBE4900408825 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F880051118FCBE4900408825 /* InfoPlist.strings */; };
+		F880051518FCBE4900408825 /* Peds_RepleteTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F880051418FCBE4900408825 /* Peds_RepleteTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F880050C18FCBE4900408825 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F88004DB18FCBE4900408825 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F88004E218FCBE4900408825;
+			remoteInfo = "Peds Replete";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F88004E318FCBE4900408825 /* Peds Replete.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Peds Replete.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F88004E618FCBE4900408825 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		F88004E818FCBE4900408825 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		F88004EA18FCBE4900408825 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		F88004EE18FCBE4900408825 /* Peds Replete-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Peds Replete-Info.plist"; sourceTree = "<group>"; };
+		F88004F018FCBE4900408825 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F88004F218FCBE4900408825 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F88004F418FCBE4900408825 /* Peds Replete-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Peds Replete-Prefix.pch"; sourceTree = "<group>"; };
+		F88004F518FCBE4900408825 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F88004F618FCBE4900408825 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F88004F918FCBE4900408825 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		F88004FC18FCBE4900408825 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		F88004FE18FCBE4900408825 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F88004FF18FCBE4900408825 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F880050118FCBE4900408825 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		F880050718FCBE4900408825 /* Peds RepleteTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Peds RepleteTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F880050818FCBE4900408825 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		F880051018FCBE4900408825 /* Peds RepleteTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Peds RepleteTests-Info.plist"; sourceTree = "<group>"; };
+		F880051218FCBE4900408825 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F880051418FCBE4900408825 /* Peds_RepleteTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Peds_RepleteTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F88004E018FCBE4900408825 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F88004E918FCBE4900408825 /* CoreGraphics.framework in Frameworks */,
+				F88004EB18FCBE4900408825 /* UIKit.framework in Frameworks */,
+				F88004E718FCBE4900408825 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F880050418FCBE4900408825 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F880050918FCBE4900408825 /* XCTest.framework in Frameworks */,
+				F880050B18FCBE4900408825 /* UIKit.framework in Frameworks */,
+				F880050A18FCBE4900408825 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F88004DA18FCBE4900408825 = {
+			isa = PBXGroup;
+			children = (
+				F88004EC18FCBE4900408825 /* Peds Replete */,
+				F880050E18FCBE4900408825 /* Peds RepleteTests */,
+				F88004E518FCBE4900408825 /* Frameworks */,
+				F88004E418FCBE4900408825 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F88004E418FCBE4900408825 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F88004E318FCBE4900408825 /* Peds Replete.app */,
+				F880050718FCBE4900408825 /* Peds RepleteTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F88004E518FCBE4900408825 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F88004E618FCBE4900408825 /* Foundation.framework */,
+				F88004E818FCBE4900408825 /* CoreGraphics.framework */,
+				F88004EA18FCBE4900408825 /* UIKit.framework */,
+				F880050818FCBE4900408825 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F88004EC18FCBE4900408825 /* Peds Replete */ = {
+			isa = PBXGroup;
+			children = (
+				F88004F518FCBE4900408825 /* AppDelegate.h */,
+				F88004F618FCBE4900408825 /* AppDelegate.m */,
+				F88004F818FCBE4900408825 /* Main_iPhone.storyboard */,
+				F88004FB18FCBE4900408825 /* Main_iPad.storyboard */,
+				F88004FE18FCBE4900408825 /* ViewController.h */,
+				F88004FF18FCBE4900408825 /* ViewController.m */,
+				F880050118FCBE4900408825 /* Images.xcassets */,
+				F88004ED18FCBE4900408825 /* Supporting Files */,
+			);
+			path = "Peds Replete";
+			sourceTree = "<group>";
+		};
+		F88004ED18FCBE4900408825 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F88004EE18FCBE4900408825 /* Peds Replete-Info.plist */,
+				F88004EF18FCBE4900408825 /* InfoPlist.strings */,
+				F88004F218FCBE4900408825 /* main.m */,
+				F88004F418FCBE4900408825 /* Peds Replete-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F880050E18FCBE4900408825 /* Peds RepleteTests */ = {
+			isa = PBXGroup;
+			children = (
+				F880051418FCBE4900408825 /* Peds_RepleteTests.m */,
+				F880050F18FCBE4900408825 /* Supporting Files */,
+			);
+			path = "Peds RepleteTests";
+			sourceTree = "<group>";
+		};
+		F880050F18FCBE4900408825 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F880051018FCBE4900408825 /* Peds RepleteTests-Info.plist */,
+				F880051118FCBE4900408825 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F88004E218FCBE4900408825 /* Peds Replete */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F880051818FCBE4900408825 /* Build configuration list for PBXNativeTarget "Peds Replete" */;
+			buildPhases = (
+				F88004DF18FCBE4900408825 /* Sources */,
+				F88004E018FCBE4900408825 /* Frameworks */,
+				F88004E118FCBE4900408825 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Peds Replete";
+			productName = "Peds Replete";
+			productReference = F88004E318FCBE4900408825 /* Peds Replete.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F880050618FCBE4900408825 /* Peds RepleteTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F880051B18FCBE4900408825 /* Build configuration list for PBXNativeTarget "Peds RepleteTests" */;
+			buildPhases = (
+				F880050318FCBE4900408825 /* Sources */,
+				F880050418FCBE4900408825 /* Frameworks */,
+				F880050518FCBE4900408825 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F880050D18FCBE4900408825 /* PBXTargetDependency */,
+			);
+			name = "Peds RepleteTests";
+			productName = "Peds RepleteTests";
+			productReference = F880050718FCBE4900408825 /* Peds RepleteTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F88004DB18FCBE4900408825 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Grand Rounds";
+				TargetAttributes = {
+					F880050618FCBE4900408825 = {
+						TestTargetID = F88004E218FCBE4900408825;
+					};
+				};
+			};
+			buildConfigurationList = F88004DE18FCBE4900408825 /* Build configuration list for PBXProject "Peds Replete" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F88004DA18FCBE4900408825;
+			productRefGroup = F88004E418FCBE4900408825 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F88004E218FCBE4900408825 /* Peds Replete */,
+				F880050618FCBE4900408825 /* Peds RepleteTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F88004E118FCBE4900408825 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F88004FD18FCBE4900408825 /* Main_iPad.storyboard in Resources */,
+				F880050218FCBE4900408825 /* Images.xcassets in Resources */,
+				F88004FA18FCBE4900408825 /* Main_iPhone.storyboard in Resources */,
+				F88004F118FCBE4900408825 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F880050518FCBE4900408825 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F880051318FCBE4900408825 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F88004DF18FCBE4900408825 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F880050018FCBE4900408825 /* ViewController.m in Sources */,
+				F88004F718FCBE4900408825 /* AppDelegate.m in Sources */,
+				F88004F318FCBE4900408825 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F880050318FCBE4900408825 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F880051518FCBE4900408825 /* Peds_RepleteTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F880050D18FCBE4900408825 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F88004E218FCBE4900408825 /* Peds Replete */;
+			targetProxy = F880050C18FCBE4900408825 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F88004EF18FCBE4900408825 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F88004F018FCBE4900408825 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		F88004F818FCBE4900408825 /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F88004F918FCBE4900408825 /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		F88004FB18FCBE4900408825 /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F88004FC18FCBE4900408825 /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		F880051118FCBE4900408825 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F880051218FCBE4900408825 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F880051618FCBE4900408825 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F880051718FCBE4900408825 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F880051918FCBE4900408825 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Peds Replete/Peds Replete-Prefix.pch";
+				INFOPLIST_FILE = "Peds Replete/Peds Replete-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		F880051A18FCBE4900408825 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Peds Replete/Peds Replete-Prefix.pch";
+				INFOPLIST_FILE = "Peds Replete/Peds Replete-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		F880051C18FCBE4900408825 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Peds Replete.app/Peds Replete";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Peds Replete/Peds Replete-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Peds RepleteTests/Peds RepleteTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		F880051D18FCBE4900408825 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Peds Replete.app/Peds Replete";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Peds Replete/Peds Replete-Prefix.pch";
+				INFOPLIST_FILE = "Peds RepleteTests/Peds RepleteTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F88004DE18FCBE4900408825 /* Build configuration list for PBXProject "Peds Replete" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F880051618FCBE4900408825 /* Debug */,
+				F880051718FCBE4900408825 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F880051818FCBE4900408825 /* Build configuration list for PBXNativeTarget "Peds Replete" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F880051918FCBE4900408825 /* Debug */,
+				F880051A18FCBE4900408825 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F880051B18FCBE4900408825 /* Build configuration list for PBXNativeTarget "Peds RepleteTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F880051C18FCBE4900408825 /* Debug */,
+				F880051D18FCBE4900408825 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F88004DB18FCBE4900408825 /* Project object */;
+}
